@@ -95,21 +95,90 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html, body {
+  font-family: 'Work Sans', sans-serif;
+  background: #cb356b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #cb356b, #bd3f32); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #cb356b, #bd3f32); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+}
 
+a {
+  color: #800000;
+}
 
+.top {
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 350%;
+  font-weight: 600;
+}
 
+.links {
+  width: 100%;
+  text-align: center;
+}
 
+.first-link {
+  margin-right: 0.5em;
+}
 
+.middle {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  height: 85%;
+}
 
+#content-panel-heading {
 
+}
 
+#heading-row {
+  position: relative;
+}
 
+#left-button-p {
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+}
 
+#left-button-col {
+}
 
+#title-col {
+  text-align: center;
+}
 
+#title-p {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
+#right-button-col {
+  text-align: right;
+}
 
+.bottom {
+  position: absolute;
+  bottom: 0;
+}
 
+.panel-title {
+  font-size: 150%;
+}
+
+#content-panel {
+  height: 100%;
+  width: 97%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* ==========================================================================
    Helper classes
