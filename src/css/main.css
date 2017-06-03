@@ -105,7 +105,7 @@ body {
 }
 
 a {
-  color: white;
+  /*color: white;*/
 }
 
 .top {
@@ -122,7 +122,17 @@ a {
 }
 
 .first-link {
+  color: white;
   margin-right: 0.5em;
+}
+
+.second-link {
+  color: white;
+  margin-right: 0.5em;
+}
+
+.third-link {
+  color: white;
 }
 
 .middle {
@@ -142,6 +152,10 @@ a {
 
 #title {
   display: inline;
+}
+
+#title-link {
+  color: black;
 }
 
 #left-button {

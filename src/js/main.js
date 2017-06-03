@@ -2,10 +2,18 @@ let $leftButton = $("#left-button");
 let $rightButton = $("#right-button");
 let $title = $("#title");
 let $body = $("body");
+let $content = $("#content");
 let $html = $("html");
 
 let index = 0;
-let titles = ["Wikispeedia", "Maps", "CubeSAT", "Hubway Map", "Music Visuals", "Polarization Study"];
+let titles = [
+  "<u><a href=\"https:\\\\wikispeedia.herokuapp.com\" id=\"title-link\">Wikispeedia</a></u>",
+  "Maps",
+  "CubeSAT",
+  "Hubway Map",
+  "Music Visuals",
+  "Polarization Study"];
+  
 let backgroundColors = ["#cb356b", "#bd3f32"];
 
 let r1 = 255;
