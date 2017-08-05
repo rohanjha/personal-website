@@ -7,13 +7,13 @@ let $html = $("html");
 
 let index = 0;
 let titles = [
-  "<u><a href=\"https:\\\\wikispeedia.herokuapp.com\" id=\"title-link\">Wikispeedia</a></u>",
+  "<u><a href=\"https://wikispeedia.herokuapp.com\" id=\"title-link\">Wikispeedia</a></u>",
   "Maps",
   "CubeSAT",
-  "Hubway Map",
+  "<u><a href=\"https://rohanjha.github.io\" id=\"title-link\">Hubway Maps</a></u>",
   "Music Visuals",
-  "Polarization Study"];
-  
+  "<u><a href=\"http://rpubs.com/rohan_jha/polarization\" id=\"title-link\">Polarization Study</a></u>"];
+
 let backgroundColors = ["#cb356b", "#bd3f32"];
 
 let r1 = 255;
@@ -45,13 +45,6 @@ function updateContent() {
   let rb = Math.floor(r1 + (r2 - r1) * (1 / titles.length) * index);
   let gb = Math.floor(g1 + (g2 - g1) * (1 / titles.length) * index);
   let bb = Math.floor(b1 + (b2 - b1) * (1 / titles.length) * index);
-
-  console.log(ra);
-  console.log(ga);
-  console.log(ba);
-  console.log(rb);
-  console.log(gb);
-  console.log(bb);
 
   document.body.style.backgroundImage = `linear-gradient(to left, rgb(${ra}, ${ga}, ${ba}) , rgb(${rb}, ${gb}, ${bb}))`;
 
