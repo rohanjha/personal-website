@@ -98,6 +98,7 @@ textarea {
 html, body {
   font-family: 'Work Sans', sans-serif;
   height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://cdn.szactrl.com/static/images/pattern2.jpg);
 }
 
 body {
@@ -106,6 +107,12 @@ body {
 
 a {
   /*color: white;*/
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 60%;
 }
 
 .top {
@@ -117,8 +124,10 @@ a {
 }
 
 .links {
-  width: 100%;
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .first-link {
@@ -138,7 +147,7 @@ a {
 .middle {
   margin-top: 1em;
   margin-bottom: 1em;
-  height: 85%;
+  height: 87%;
 }
 
 .panel-heading {
@@ -152,10 +161,6 @@ a {
 
 #title {
   display: inline;
-}
-
-#title-link {
-  color: black;
 }
 
 #left-button {
@@ -179,6 +184,7 @@ a {
   width: 97%;
   margin-left: auto;
   margin-right: auto;
+  overflow-y: scroll;
 }
 
 .bottom {
