@@ -130,6 +130,12 @@ img {
 
 .box .row.content {
   flex: 1 1 auto;
+  height: 100%;
+  width: 97%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  overflow-y: scroll;
 }
 
 .panel-heading {
@@ -140,7 +146,6 @@ img {
 .panel-title {
   font-size: 150%;
 }
-
 
 #left-button {
   display: inline-block;
@@ -158,21 +163,17 @@ img {
   transform: translateY(-50%);
 }
 
-#content-panel {
-  height: 100%;
-  width: 97%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
-  overflow-y: scroll;
-}
-
 .box .row.footer {
   flex: 0 1 40px;
-  text-align: center;
-  position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+.links {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 .first-link {
