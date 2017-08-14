@@ -3,6 +3,7 @@ let $rightButton = $("#right-button");
 
 let index = 0;
 let titleIds = ["wikispeedia-title", "maps-title", "cubesat-title", "hubway-title", "music-title", "polarization-title"];
+let contentIds = ["wikispeedia-content", "maps-content", "cubesat-content", "hubway-content", "music-content", "polarization-content"];
 
 $(document).ready(() => {
   updateContent();
@@ -37,6 +38,15 @@ function updateContent() {
       $title.hide();
     } else {
       $title.show();
+    }
+  }
+
+  for (let i = 0; i < contentIds.length; i++) {
+    $content = $("#" + contentIds[i]);
+    if (i != index) {
+      $content.hide();
+    } else {
+      $content.show();
     }
   }
 }

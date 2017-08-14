@@ -135,7 +135,6 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto;
-  overflow-y: scroll;
 }
 
 .panel-heading {
@@ -145,6 +144,11 @@ img {
 
 .panel-title {
   font-size: 150%;
+}
+
+.panel-body {
+  overflow-y: auto;
+  word-wrap: break-word;
 }
 
 #left-button {
