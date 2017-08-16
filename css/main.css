@@ -129,6 +129,7 @@ img {
 }
 
 .box .row.content {
+  overflow-y: auto;
   flex: 1 1 auto;
   height: 100%;
   width: 97%;
@@ -147,7 +148,6 @@ img {
 }
 
 .panel-body {
-  overflow-y: auto;
   word-wrap: break-word;
 }
 
