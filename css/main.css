@@ -105,7 +105,7 @@ html, body {
 img {
   display: block;
   margin: auto;
-  width: 60%;
+  width: 80%;
 }
 
 .box {
@@ -121,13 +121,26 @@ img {
   width: 100%;
   color: white;
   text-align: center;
-  font-size: 350%;
-  font-weight: 600;
   /* The above is shorthand for:
   flex-grow: 0,
   flex-shrink: 1,
   flex-basis: auto
   */
+}
+
+.name {
+  font-size: 350%;
+  font-weight: 600;
+}
+
+.credit {
+  margin-bottom: 0.6em;
+  margin-top: -0.5em;
+}
+
+.credit-link {
+  color: white;
+  text-decoration: underline;
 }
 
 .box .row.content {
@@ -180,6 +193,7 @@ img {
   bottom: 0;
   width: 100%;
   text-align: center;
+  color: white;
 }
 
 .first-link {
